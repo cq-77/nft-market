@@ -1,0 +1,12 @@
+.common__section{
+    background: url('../../../assets/images/milad-fakurian-nY14Fs8pxT8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    backdrop-filter: blur(10px);
+}
+
+.common__section h2{
+    color: #fff;
+}

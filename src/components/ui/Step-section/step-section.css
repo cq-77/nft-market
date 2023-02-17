@@ -1,0 +1,38 @@
+.single__step__item{
+    background: linear-gradient(156.67deg, rgba(162, 70, 150, 0.519) 0.07%, rgba(116, 85, 188, 0.519) 99.07%);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+
+.single__step__item:hover{
+    transform: scale(1.1);
+}
+
+.step__title{
+    color: white;
+}
+
+.step__item__content h5 a{
+    text-decoration: none;
+    color: white;
+}
+
+.single__step__item span i{
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5rem;
+    background: rgb(73, 73, 203);
+    border-radius: 5px;
+}
+
+.step__item__content{
+    margin-top: 20px !important;
+}
+
+@media only screen and (max-width:768px) {
+    .single__step__item{
+        margin-top: 30px;
+    }
+}
